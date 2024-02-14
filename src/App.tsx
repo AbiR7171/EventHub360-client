@@ -1,12 +1,14 @@
 import './App.css'
-import { Button } from './components/ui/button'
+import Banner from './pages/home/banner/Banner'
+import NavBar from './shared/NavBar'
 
 function App() {
  
 
   return (
     <div>
-           <Button className='bg-red-600'>Ready</Button>
+           <NavBar/>
+           <Banner/>
      </div>
   )
 }
