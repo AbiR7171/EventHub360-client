@@ -6,7 +6,7 @@ import "./Banner.css"
 const Banner = () => {
     return (
         <div className="bg-primary">
-              <Container className="grid grid-cols-12">
+              <Container className="grid grid-cols-12 gap-4 items-center">
                     <NewPackages/>
                     <PopularServices/>
               </Container>
